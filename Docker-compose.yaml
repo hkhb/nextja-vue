@@ -23,8 +23,8 @@ services:
       context: ./src/frontend
       dockerfile: ../../Dockerfile.frontend
     volumes:
-      - ./src/frontend:/app
-      - /app/node_modules
+      - ./src/frontend:/app:cached
+      - /app/node_modules 
     ports:
       - "3000:5173"
     environment:

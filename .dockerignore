@@ -1,0 +1,17 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+
+# Dependencies
+node_modules
+*/node_modules
+
+# Build artifacts
+dist
+*/dist
+
+# Environment variables
+.env
